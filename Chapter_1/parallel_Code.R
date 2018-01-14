@@ -2,7 +2,8 @@ library(parallel) # load snow and multicore ! / require(parallel)
 
                                         # This part is the work that
                                         # the wokers is gonna perfom
-
+                                        #This is just for git learning propouse
+fjksdhfjksdah
 doichunk <- function(ichunk){
     tot <- 0
     nr <- nrow(links) #links global at worker
